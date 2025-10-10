@@ -8,6 +8,7 @@
 :root{
     --blue-color: rgb(56, 133, 183);
     --white-color: #ffffff;
+    --second-text: #7e7d7d;;
 }
 
 
@@ -213,7 +214,7 @@ ul {
 }
 
 .singleProjectDescription{
-    color: #7e7d7d;
+    color: var(--second-text);
     font-size: 1.8vh;
 }
 
@@ -224,8 +225,59 @@ ul {
 }
 
 
-.announcements{
-    background-color: var(--white-color);
-    margin: 56px 10px 0 0;
+.paraProjects{
+    padding: 15px 0 0 20px;
+    margin: 0;
+    font-size: 2.4vh;
+    font-weight: 600;
 
+}
+
+.announcementsContainer{
+    background-color: var(--white-color);
+    margin: 15px 15px 15px 0;
+    border-radius: 10px;
+
+}
+
+.announcement{
+    padding: 10px 20px;
+}
+
+
+.annouucementPara{
+    font-size: 1.7vh;
+    font-weight: 600;
+    margin: 0;
+}
+
+.announcementDescription{
+    font-size: 1.6vh;
+    color: var(--second-text);
+}
+
+
+
+
+.trendingContainer{
+    background-color: var(--white-color);
+    margin: 15px 15px 15px 0;
+    border-radius: 10px;
+}
+
+.singleTrend{
+    padding: 10px 20px;
+}
+
+.singleTrend{
+    display: flex;
+}
+
+.userInfo{
+    margin: 0;
+    font-size: 1.3vh;
+}
+
+.userCompany{
+    color: var(--second-text);
 }
